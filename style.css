@@ -1,0 +1,23 @@
+body{
+    background-color:#7ccf92;
+    font-family: 'Roboto', sans-serif;
+}
+
+#firstToDoList{
+    background-color: white;
+    width: 200px;
+    height: 500px;
+    position: relative;
+    border-radius: 2%;
+    border: 5px solid #599268;
+}
+
+#addToListForm{
+    position:absolute;
+    bottom: 0px;
+}
+
+li{
+    list-style-type: none; 
+    font-weight: 300;
+}

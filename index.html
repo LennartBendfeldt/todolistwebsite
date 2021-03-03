@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lennart's To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h2>To Do List</h2>
+
+    <p>Use this list to keep track of your to-do tasks for the day! Use the input bar at the bottom to add items and click the item to remove it.</p>
+
+    <div id="firstToDoList">
+
+      <div id="listItself">
+        <ul id="dynamic-list"></ul>
+      </div>
+
+      <div id="addToListForm">
+        <input type="text" id="addtolist" />
+        <button onclick="addTask()">Add task</button>
+      </div>
+
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
